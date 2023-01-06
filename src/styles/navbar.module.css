@@ -1,0 +1,23 @@
+.containerMenu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #006d68;
+  padding: 5px;
+}
+
+.textPage {
+  color: white;
+  font-size: 20px;
+}
+
+.imageUserOption {
+  border-radius: 100%;
+  width: 50px;
+}
+
+@media (max-width: 640px) {
+  .textPage {
+    font-size: 15px;
+  }
+}

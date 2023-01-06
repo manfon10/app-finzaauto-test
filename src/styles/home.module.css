@@ -1,0 +1,93 @@
+.containerInfoUsers {
+  display: flex;
+  justify-content: center;
+  border: 1px solid gray;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.containerActionsHome {
+  margin-top: 20px;
+  text-align: right;
+}
+
+.imageDataUser {
+  border-radius: 100%;
+  width: 30px;
+}
+
+.formatText {
+  width: auto;
+}
+
+.buttonActions {
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+.buttonCreateUser {
+  padding: 8px;
+  background-color: #006d68;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.inputSearchUser {
+  padding: 8px;
+  margin-right: 5px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+
+.containerAlert {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #80808065;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+}
+
+.containerDataAlert {
+  padding: 10px;
+  background: white;
+  width: 200px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.buttonAlertAction {
+  border: none;
+  padding: 5px;
+  margin-right: 5px;
+  background: #f1948a;
+}
+
+.buttonAlertActionCancel {
+  border: none;
+  padding: 5px;
+  background: "#A3E4D7";
+}
+
+@media (max-width: 640px) {
+  .containerActionsHome {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .formatText {
+    width: 100px;
+    white-space: pre;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+}

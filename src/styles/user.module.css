@@ -1,0 +1,48 @@
+.containerIconLeftPage {
+  margin-top: 20px;
+}
+
+.containerResultSearchUser {
+  position: absolute;
+  left: 0;
+  right: 0;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  padding: 10px;
+  background-color: white;
+  width: 200px;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+.inputsForm {
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+.textErrorForm {
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+.containerTitlePage {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.formUser {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.buttonForm {
+  width: 50%;
+  margin: 0 auto;
+  background: #006d68;
+  padding: 8px;
+  border: none;
+  color: white;
+  border-radius: 5px;
+}
